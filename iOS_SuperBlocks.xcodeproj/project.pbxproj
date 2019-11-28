@@ -20,6 +20,7 @@
 		38341537217176FD00811137 /* MMExampleDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38341533217176FD00811137 /* MMExampleDrawerVisualStateManager.m */; };
 		3834153A2171777000811137 /* GVUserDefaults+CLMDProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 383415382171777000811137 /* GVUserDefaults+CLMDProperties.m */; };
 		3834153F21717BB200811137 /* UISignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3834153E21717BB200811137 /* UISignInViewController.m */; };
+		385BDA86238F60AD00503D1A /* YVRegexObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 385BDA85238F60AD00503D1A /* YVRegexObject.m */; };
 		3872917C2170666D0089DAF8 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 387291762170666B0089DAF8 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		3872917D2170666D0089DAF8 /* UIBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387291772170666B0089DAF8 /* UIBaseNavigationController.m */; };
 		3872917E2170666D0089DAF8 /* UIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3872917A2170666C0089DAF8 /* UIBaseViewController.m */; };
@@ -120,6 +121,8 @@
 		383415392171777000811137 /* GVUserDefaults+CLMDProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GVUserDefaults+CLMDProperties.h"; sourceTree = "<group>"; };
 		3834153D21717BB200811137 /* UISignInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UISignInViewController.h; sourceTree = "<group>"; };
 		3834153E21717BB200811137 /* UISignInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISignInViewController.m; sourceTree = "<group>"; };
+		385BDA84238F60AD00503D1A /* YVRegexObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVRegexObject.h; sourceTree = "<group>"; };
+		385BDA85238F60AD00503D1A /* YVRegexObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVRegexObject.m; sourceTree = "<group>"; };
 		38729172217047F40089DAF8 /* MacroHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroHeader.h; sourceTree = "<group>"; };
 		387291732170480D0089DAF8 /* PCHHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCHHeader.pch; sourceTree = "<group>"; };
 		387291762170666B0089DAF8 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
@@ -346,6 +349,23 @@
 				3834153E21717BB200811137 /* UISignInViewController.m */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		385BDA82238F609500503D1A /* Utils(工具类) */ = {
+			isa = PBXGroup;
+			children = (
+				385BDA83238F60A700503D1A /* YVRegex */,
+			);
+			path = "Utils(工具类)";
+			sourceTree = "<group>";
+		};
+		385BDA83238F60A700503D1A /* YVRegex */ = {
+			isa = PBXGroup;
+			children = (
+				385BDA84238F60AD00503D1A /* YVRegexObject.h */,
+				385BDA85238F60AD00503D1A /* YVRegexObject.m */,
+			);
+			path = YVRegex;
 			sourceTree = "<group>";
 		};
 		387291712170479E0089DAF8 /* Configuration(配置) */ = {
@@ -679,6 +699,7 @@
 		8765E93C1D87CCC9003B38B0 /* iOS_SuperBlocks */ = {
 			isa = PBXGroup;
 			children = (
+				385BDA82238F609500503D1A /* Utils(工具类) */,
 				387291AC21707DE60089DAF8 /* DependentFrameworks(依赖库) */,
 				387291862170705F0089DAF8 /* UIFunctions(功能模块) */,
 				38729175217066620089DAF8 /* UIBaseViewController */,
@@ -849,6 +870,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -908,6 +930,7 @@
 				38729192217075740089DAF8 /* UIMapKitController.m in Sources */,
 				387291B721707DF90089DAF8 /* NinaBaseView.m in Sources */,
 				3834153A2171777000811137 /* GVUserDefaults+CLMDProperties.m in Sources */,
+				385BDA86238F60AD00503D1A /* YVRegexObject.m in Sources */,
 				387291ED21707E0F0089DAF8 /* MJRefreshBackGifFooter.m in Sources */,
 				387291EA21707E0F0089DAF8 /* UIScrollView+MJExtension.m in Sources */,
 				387291A521707CB30089DAF8 /* UITableHeaderView.m in Sources */,

@@ -21,8 +21,8 @@ typedef enum
 
 #define ScreenWidth [UIScreen mainScreen].bounds.size.width
 #define ScreenHeight [UIScreen mainScreen].bounds.size.height
-#define SafeAreaTopHeight (ScreenHeight == 812.0 ? 88 : 64)
-#define SafeAreaBottomHeight (ScreenHeight == 812.0 ? 83.5 : 49.5)
+#define SafeAreaTopHeight (ScreenHeight >= 812.0 ? 88 : 64)
+#define SafeAreaBottomHeight (ScreenHeight >= 812.0 ? 83.5 : 49.5)
 
 //颜色设置
 #define kBLUE [UIColor colorWithRed:48/255.0f green:184/255.0f blue:238/255.0f alpha:0.9]
