@@ -62,8 +62,8 @@ static NSString * const cellId = @"UITableViewCell";
     self.title = @"功能中心";
     self.view.backgroundColor = [UIColor colorWithRed:234.0/255 green:234.0/255 blue:234.0/255 alpha:1.0];
     
-    self.functionNames = [NSArray arrayWithObjects:@[@"UIMapKit -- 系统地图基础使用", @"UITalbleView -- 表格自定义拓展", @"UIImageCropper -- 图片裁剪", @"UIPopupView -- 弹出视图"] , @[@"CLMDAlert -- 开源框架CLMDAlertView"], @[@"MMDrawerController -- 抽屉视图"], nil];
-    self.functionGroups = [NSArray arrayWithObjects:@[@"UIMapKitController", @"UITableViewFunctionListViewController", @"UIImageCropperViewController", @"UIPopupViewController"], @[@"CLMDAlertViewController"], @[@""], nil];
+    self.functionNames = [NSArray arrayWithObjects:@[@"UIMapKit -- 系统地图基础使用", @"UITalbleView -- 表格自定义拓展", @"Excel -- 办公表格视图", @"UIImageCropper -- 图片裁剪", @"UIPopupView -- 弹出视图", @"PopupObserver -- 弹出视图"] , @[@"CLMDAlert -- 开源框架CLMDAlertView"], @[@"MMDrawerController -- 抽屉视图", @"KeyboardMonitor -- 键盘监听"], nil];
+    self.functionGroups = [NSArray arrayWithObjects:@[@"UIMapKitController", @"UITableViewFunctionListViewController", @"ExcelViewController", @"UIImageCropperViewController", @"UIPopupViewController", @"PopupObserverViewController"], @[@"CLMDAlertViewController"], @[@"", @"KeyboardMonitorViewController"], nil];
 }
 
 #pragma makr - <加载子控件>

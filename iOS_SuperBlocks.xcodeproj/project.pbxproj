@@ -21,6 +21,15 @@
 		3834153A2171777000811137 /* GVUserDefaults+CLMDProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 383415382171777000811137 /* GVUserDefaults+CLMDProperties.m */; };
 		3834153F21717BB200811137 /* UISignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3834153E21717BB200811137 /* UISignInViewController.m */; };
 		385BDA86238F60AD00503D1A /* YVRegexObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 385BDA85238F60AD00503D1A /* YVRegexObject.m */; };
+		385BDA8C238F638E00503D1A /* KeyboardMonitorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385BDA8B238F638E00503D1A /* KeyboardMonitorViewController.m */; };
+		385BDA8F238F639B00503D1A /* KeyboardMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 385BDA8D238F639B00503D1A /* KeyboardMonitor.m */; };
+		385BDA9E238F67CF00503D1A /* YVCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 385BDA96238F67CF00503D1A /* YVCollectionViewLayout.m */; };
+		385BDA9F238F67CF00503D1A /* UIView+FromFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 385BDA97238F67CF00503D1A /* UIView+FromFrame.m */; };
+		385BDAA0238F67CF00503D1A /* YVCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 385BDA9B238F67CF00503D1A /* YVCollectionView.m */; };
+		385BDAA1238F67CF00503D1A /* YVFormListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 385BDA9D238F67CF00503D1A /* YVFormListView.m */; };
+		385BDAA4238F67DD00503D1A /* ExcelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385BDAA3238F67DD00503D1A /* ExcelViewController.m */; };
+		385BDAA8238F6BC800503D1A /* PopupObserverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385BDAA7238F6BC800503D1A /* PopupObserverViewController.m */; };
+		385BDAAB238F6BD200503D1A /* YVPopupObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 385BDAA9238F6BD200503D1A /* YVPopupObserver.m */; };
 		3872917C2170666D0089DAF8 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 387291762170666B0089DAF8 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		3872917D2170666D0089DAF8 /* UIBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387291772170666B0089DAF8 /* UIBaseNavigationController.m */; };
 		3872917E2170666D0089DAF8 /* UIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3872917A2170666C0089DAF8 /* UIBaseViewController.m */; };
@@ -123,6 +132,24 @@
 		3834153E21717BB200811137 /* UISignInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISignInViewController.m; sourceTree = "<group>"; };
 		385BDA84238F60AD00503D1A /* YVRegexObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVRegexObject.h; sourceTree = "<group>"; };
 		385BDA85238F60AD00503D1A /* YVRegexObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVRegexObject.m; sourceTree = "<group>"; };
+		385BDA8A238F638E00503D1A /* KeyboardMonitorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardMonitorViewController.h; sourceTree = "<group>"; };
+		385BDA8B238F638E00503D1A /* KeyboardMonitorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardMonitorViewController.m; sourceTree = "<group>"; };
+		385BDA8D238F639B00503D1A /* KeyboardMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardMonitor.m; sourceTree = "<group>"; };
+		385BDA8E238F639B00503D1A /* KeyboardMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardMonitor.h; sourceTree = "<group>"; };
+		385BDA96238F67CF00503D1A /* YVCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVCollectionViewLayout.m; sourceTree = "<group>"; };
+		385BDA97238F67CF00503D1A /* UIView+FromFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FromFrame.m"; sourceTree = "<group>"; };
+		385BDA98238F67CF00503D1A /* YVCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVCollectionViewLayout.h; sourceTree = "<group>"; };
+		385BDA99238F67CF00503D1A /* UIView+FromFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FromFrame.h"; sourceTree = "<group>"; };
+		385BDA9A238F67CF00503D1A /* YVCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVCollectionView.h; sourceTree = "<group>"; };
+		385BDA9B238F67CF00503D1A /* YVCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVCollectionView.m; sourceTree = "<group>"; };
+		385BDA9C238F67CF00503D1A /* YVFormListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVFormListView.h; sourceTree = "<group>"; };
+		385BDA9D238F67CF00503D1A /* YVFormListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVFormListView.m; sourceTree = "<group>"; };
+		385BDAA2238F67DD00503D1A /* ExcelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExcelViewController.h; sourceTree = "<group>"; };
+		385BDAA3238F67DD00503D1A /* ExcelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExcelViewController.m; sourceTree = "<group>"; };
+		385BDAA6238F6BC800503D1A /* PopupObserverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopupObserverViewController.h; sourceTree = "<group>"; };
+		385BDAA7238F6BC800503D1A /* PopupObserverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopupObserverViewController.m; sourceTree = "<group>"; };
+		385BDAA9238F6BD200503D1A /* YVPopupObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVPopupObserver.m; sourceTree = "<group>"; };
+		385BDAAA238F6BD200503D1A /* YVPopupObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVPopupObserver.h; sourceTree = "<group>"; };
 		38729172217047F40089DAF8 /* MacroHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroHeader.h; sourceTree = "<group>"; };
 		387291732170480D0089DAF8 /* PCHHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCHHeader.pch; sourceTree = "<group>"; };
 		387291762170666B0089DAF8 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
@@ -368,6 +395,77 @@
 			path = YVRegex;
 			sourceTree = "<group>";
 		};
+		385BDA87238F632C00503D1A /* KeyboardNotification(键盘监听) */ = {
+			isa = PBXGroup;
+			children = (
+				385BDA88238F637400503D1A /* Controllers */,
+				385BDA89238F637400503D1A /* Kit */,
+			);
+			path = "KeyboardNotification(键盘监听)";
+			sourceTree = "<group>";
+		};
+		385BDA88238F637400503D1A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				385BDA8A238F638E00503D1A /* KeyboardMonitorViewController.h */,
+				385BDA8B238F638E00503D1A /* KeyboardMonitorViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		385BDA89238F637400503D1A /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				385BDA8E238F639B00503D1A /* KeyboardMonitor.h */,
+				385BDA8D238F639B00503D1A /* KeyboardMonitor.m */,
+			);
+			path = Kit;
+			sourceTree = "<group>";
+		};
+		385BDA93238F67C000503D1A /* Excel(办公表格) */ = {
+			isa = PBXGroup;
+			children = (
+				385BDA94238F67C000503D1A /* FormListView */,
+				385BDA95238F67C000503D1A /* Controllers */,
+			);
+			path = "Excel(办公表格)";
+			sourceTree = "<group>";
+		};
+		385BDA94238F67C000503D1A /* FormListView */ = {
+			isa = PBXGroup;
+			children = (
+				385BDA99238F67CF00503D1A /* UIView+FromFrame.h */,
+				385BDA97238F67CF00503D1A /* UIView+FromFrame.m */,
+				385BDA9A238F67CF00503D1A /* YVCollectionView.h */,
+				385BDA9B238F67CF00503D1A /* YVCollectionView.m */,
+				385BDA98238F67CF00503D1A /* YVCollectionViewLayout.h */,
+				385BDA96238F67CF00503D1A /* YVCollectionViewLayout.m */,
+				385BDA9C238F67CF00503D1A /* YVFormListView.h */,
+				385BDA9D238F67CF00503D1A /* YVFormListView.m */,
+			);
+			path = FormListView;
+			sourceTree = "<group>";
+		};
+		385BDA95238F67C000503D1A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				385BDAA2238F67DD00503D1A /* ExcelViewController.h */,
+				385BDAA3238F67DD00503D1A /* ExcelViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		385BDAA5238F6BA800503D1A /* PopupObserver(弹出视图辅助类) */ = {
+			isa = PBXGroup;
+			children = (
+				385BDAA6238F6BC800503D1A /* PopupObserverViewController.h */,
+				385BDAA7238F6BC800503D1A /* PopupObserverViewController.m */,
+				385BDAAA238F6BD200503D1A /* YVPopupObserver.h */,
+				385BDAA9238F6BD200503D1A /* YVPopupObserver.m */,
+			);
+			path = "PopupObserver(弹出视图辅助类)";
+			sourceTree = "<group>";
+		};
 		387291712170479E0089DAF8 /* Configuration(配置) */ = {
 			isa = PBXGroup;
 			children = (
@@ -397,9 +495,12 @@
 				38729189217070C90089DAF8 /* HomePage(主页) */,
 				3872918E217072790089DAF8 /* UIMapkit(系统地图使用) */,
 				38729188217070930089DAF8 /* UITableView(表格样式) */,
+				385BDA93238F67C000503D1A /* Excel(办公表格) */,
 				38729208217084250089DAF8 /* UIImageCropper(图片裁剪) */,
+				385BDAA5238F6BA800503D1A /* PopupObserver(弹出视图辅助类) */,
 				3872921021708A410089DAF8 /* UIPopupView(弹出视图) */,
 				3872921921708F160089DAF8 /* CLMDAlert(CLMD弹出框) */,
+				385BDA87238F632C00503D1A /* KeyboardNotification(键盘监听) */,
 			);
 			path = "UIFunctions(功能模块)";
 			sourceTree = "<group>";
@@ -933,6 +1034,8 @@
 				385BDA86238F60AD00503D1A /* YVRegexObject.m in Sources */,
 				387291ED21707E0F0089DAF8 /* MJRefreshBackGifFooter.m in Sources */,
 				387291EA21707E0F0089DAF8 /* UIScrollView+MJExtension.m in Sources */,
+				385BDA8C238F638E00503D1A /* KeyboardMonitorViewController.m in Sources */,
+				385BDA9E238F67CF00503D1A /* YVCollectionViewLayout.m in Sources */,
 				387291A521707CB30089DAF8 /* UITableHeaderView.m in Sources */,
 				387291EC21707E0F0089DAF8 /* UIView+MJExtension.m in Sources */,
 				387291B521707DF90089DAF8 /* UIView+ViewController.m in Sources */,
@@ -942,6 +1045,7 @@
 				387291E821707E0F0089DAF8 /* MJRefreshConst.m in Sources */,
 				387291AB21707D990089DAF8 /* UITableViewFunctionListViewController.m in Sources */,
 				387291EB21707E0F0089DAF8 /* NSBundle+MJRefresh.m in Sources */,
+				385BDAAB238F6BD200503D1A /* YVPopupObserver.m in Sources */,
 				8765E9421D87CCC9003B38B0 /* AppDelegate.m in Sources */,
 				387291F421707E0F0089DAF8 /* MJRefreshStateHeader.m in Sources */,
 				387291E721707E0F0089DAF8 /* UIScrollView+MJRefresh.m in Sources */,
@@ -949,13 +1053,19 @@
 				387291F221707E0F0089DAF8 /* MJRefreshAutoNormalFooter.m in Sources */,
 				3834151E2171761700811137 /* CLMDAlertTools.m in Sources */,
 				8765E9921D87F2A9003B38B0 /* 工程板块说明.md in Sources */,
+				385BDAA4238F67DD00503D1A /* ExcelViewController.m in Sources */,
+				385BDA9F238F67CF00503D1A /* UIView+FromFrame.m in Sources */,
 				3872918D217071050089DAF8 /* UIFunctionListViewController.m in Sources */,
 				3872920C217084600089DAF8 /* UIImageCropperViewController.m in Sources */,
+				385BDAA8238F6BC800503D1A /* PopupObserverViewController.m in Sources */,
 				3872920721707F4C0089DAF8 /* UILoadingStyleTableViewController.m in Sources */,
+				385BDA8F238F639B00503D1A /* KeyboardMonitor.m in Sources */,
 				387291F321707E0F0089DAF8 /* MJRefreshNormalHeader.m in Sources */,
 				3872921D2170915B0089DAF8 /* CLMDAlertViewController.m in Sources */,
 				8765E93F1D87CCC9003B38B0 /* main.m in Sources */,
 				387291FA21707E0F0089DAF8 /* MJRefreshComponent.m in Sources */,
+				385BDAA1238F67CF00503D1A /* YVFormListView.m in Sources */,
+				385BDAA0238F67CF00503D1A /* YVCollectionView.m in Sources */,
 				387291F021707E0F0089DAF8 /* MJRefreshAutoStateFooter.m in Sources */,
 				38341534217176FD00811137 /* UIViewController+MMDrawerController.m in Sources */,
 				38341529217176EA00811137 /* GVUserDefaults.m in Sources */,
